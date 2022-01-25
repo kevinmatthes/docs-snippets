@@ -67,4 +67,30 @@ version is as follows:
 > with this program; if not, write to the Free Software Foundation, Inc.,
 > 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
+## Description
+
+Any good project should have at least a reasonable minimum of description.
+Therefore, plenty of automatic documentation creation were developed in order
+to make the process of writing a manual easier.  Many of those are specific to
+one certain language, such as Haddock for Haskell or JavaDoc for Java.  Some
+even support multiple languages like Doxygen does for C-like languages.
+
+All of the systems have in common that they generate the intended documentation
+from the source code of the project, evaluating some certain comments placed in
+there.  Furthermore, they might be instructed to mind certain settings when
+writing the documentation, one of the most common settings therefore is the
+actual output directory.  Systems like Haddock and JavaDoc accept such settings
+as command line arguments when called, Doxygen, in contrast, reads the
+preferences from a configuration file.
+
+Not only these configurations, no matter processed whether by command line
+arguments or by configuration files, but also the documenting comments, often
+named "docstrings" will produce redundancy since most of the content will be
+equal for numerous projects.
+
+The purpose of this repository is it therefore to provide some frequently used
+configuration settings and docstring patterns for several languages and
+documentation systems.  They can be considered sample templates but also be
+adjusted to the needs of a certain project and / or repository.
+
 <!----------------------------------------------------------------------------->
