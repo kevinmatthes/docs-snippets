@@ -78,19 +78,20 @@ even support multiple languages like Doxygen does for C-like languages.
 All of the systems have in common that they generate the intended documentation
 from the source code of the project, evaluating some certain comments placed in
 there.  Furthermore, they might be instructed to mind certain settings when
-writing the documentation, one of the most common settings therefore is the
+writing the documentation; one of the most common settings therefore is the
 actual output directory.  Systems like Haddock and JavaDoc accept such settings
 as command line arguments when called, Doxygen, in contrast, reads the
 preferences from a configuration file.
 
-Not only these configurations, no matter processed whether by command line
+Not only these configurations, no matter if processed whether by command line
 arguments or by configuration files, but also the documenting comments, often
-named "docstrings" will produce redundancy since most of the content will be
+named "docstrings", will produce redundancy since most of the content will be
 equal for numerous projects.
 
 The purpose of this repository is it therefore to provide some frequently used
 configuration settings and docstring patterns for several languages and
 documentation systems.  They can be considered sample templates but also be
-adjusted to the needs of a certain project and / or repository.
+adjusted to the needs of a certain project and / or repository which binds this
+one as a submodule.
 
 <!----------------------------------------------------------------------------->
