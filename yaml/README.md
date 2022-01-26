@@ -41,4 +41,12 @@
 
 # `./yaml/`
 
+This directory provides a set of common meta data for Pandoc.
+
+Pandoc allows the specification of document related meta data using YAML blocks
+at the source file's beginning.  These information may also be stacked such that
+default values may be grouped in separate files depending on their category.
+When compiling with Pandoc, the meta just needs to be named before the actual
+content as input and it will be added to the resulting document properly.
+
 <!----------------------------------------------------------------------------->
