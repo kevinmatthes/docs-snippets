@@ -20,10 +20,10 @@
 ####
 ##
 ##  FILE
-##      a4-3x3-duplex.yaml
+##      scrartcl.yaml
 ##
 ##  BRIEF
-##      Set the output geometry.
+##      Set the document's behaviour.
 ##
 ##  AUTHOR
 ##      Kevin Matthes
@@ -41,13 +41,9 @@
 ##
 ################################################################################
 
-geometry:
-  - a4paper
-  - bottom  = 3 cm
-  - inner   = 3 cm
-  - outer   = 3 cm
-  - top     = 3 cm
-  - twoside = true
+date:           \today
+documentclass:  scrartcl
+toc:            true
 
 ################################################################################
 ---
