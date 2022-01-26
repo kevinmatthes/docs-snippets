@@ -20,10 +20,10 @@
 ####
 ##
 ##  FILE
-##      british.yaml
+##      3x3-duplex.yaml
 ##
 ##  BRIEF
-##      Set the output language to British English.
+##      Set the output geometry.
 ##
 ##  AUTHOR
 ##      Kevin Matthes
@@ -41,7 +41,12 @@
 ##
 ################################################################################
 
-lang: en-GB
+geometry:
+  - bottom  = 3 cm
+  - inner   = 3 cm
+  - outer   = 3 cm
+  - top     = 3 cm
+  - twoside = true
 
 ################################################################################
 ---
