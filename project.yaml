@@ -20,10 +20,10 @@
 ####
 ##
 ##  FILE
-##      authors.yaml
+##      project.yaml
 ##
 ##  BRIEF
-##      The people who contributed to this project.
+##      A brief description of this project.
 ##
 ##  AUTHOR
 ##      Kevin Matthes
@@ -41,8 +41,11 @@
 ##
 ################################################################################
 
-author:
-  - Kevin Matthes
+title:
+  - docs-snippets
+
+subtitle:
+  - A Collection of Common Documentation Configuration Files
 
 ################################################################################
 ---
