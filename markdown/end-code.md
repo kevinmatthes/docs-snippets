@@ -1,3 +1,5 @@
+```
+
 <!------------------------------------------------------------------------------
 --
 -- Copyright (C) 2022 Kevin Matthes
@@ -19,10 +21,10 @@
 ----
 --
 --  FILE
---      begin-code.md
+--      end-code.md
 --
 --  BRIEF
---      Begin a source code section.
+--      End a source code section.
 --
 --  AUTHOR
 --      Kevin Matthes
@@ -39,5 +41,3 @@
 --      See `README.md' for project details.
 --
 ------------------------------------------------------------------------------->
-
-```
