@@ -19,10 +19,10 @@
 ----
 --
 --  FILE
---      README.md
+--      newpage.md
 --
 --  BRIEF
---      Important information regarding this project.
+--      Enforce a page break.
 --
 --  AUTHOR
 --      Kevin Matthes
@@ -36,11 +36,12 @@
 --
 --  NOTE
 --      See `LICENSE' for full license.
+--      See `README.md' for project details.
 --
 ------------------------------------------------------------------------------->
 
-# `./markdown/`
-
-This directory provides a set of common markdown content snippets for Pandoc.
+<!----------------------------------------------------------------------------->
+<!-------------------------------> \newpage{} <!------------------------------->
+<!----------------------------------------------------------------------------->
 
 <!----------------------------------------------------------------------------->
