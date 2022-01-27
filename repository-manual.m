@@ -71,6 +71,7 @@ files.code.begin    = [directories.md 'begin-code.md '];
 files.code.end      = [directories.md 'end-code.md '];
 
 files.license       = [files.code.begin ' ./LICENSE ' files.code.end];
+files.license       = [directories.md 'heading-license.md ' files.license];
 
 files.newpage       = [directories.md 'newpage.md '];
 
@@ -114,8 +115,8 @@ disp ([banner 'Begin build instruction.']);
 
 % Call Pandoc.
 disp ([banner 'Compile Pandoc documentation ...']);
-disp ([banner software.compiler.call]);
 
+disp (software.compiler.call);
 system (software.compiler.call);
 
 disp ([banner 'Done.']);
