@@ -20,10 +20,10 @@
 ####
 ##
 ##  FILE
-##      a4-3x3-duplex.yaml
+##      authors.yaml
 ##
 ##  BRIEF
-##      Set the output geometry.
+##      The people who contributed to this project.
 ##
 ##  AUTHOR
 ##      Kevin Matthes
@@ -41,13 +41,8 @@
 ##
 ################################################################################
 
-geometry:
-  - a4paper
-  - bottom  = 3 cm
-  - inner   = 3 cm
-  - outer   = 3 cm
-  - top     = 3 cm
-  - twoside = true
+author:
+  - Kevin Matthes
 
 ################################################################################
 ---
