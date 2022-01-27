@@ -19,10 +19,10 @@
 %%%%
 %%
 %%  FILE
-%%      pandoc-latex.m
+%%      repository-manual.m
 %%
 %%  BRIEF
-%%      Create a LaTeX documentation from sources using `pandoc`.
+%%      Create a LaTeX documentation for this repository using `pandoc`.
 %%
 %%  AUTHOR
 %%      Kevin Matthes
@@ -54,7 +54,7 @@ software.compiler.call  = [software.compiler.self software.compiler.flags];
 
 
 % Files.
-files.self      = ' pandoc-latex.m ';
+files.self      = ' repository-manual.m ';
 files.source    = '';
 files.target    = '';
 
