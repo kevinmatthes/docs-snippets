@@ -46,6 +46,13 @@
 %%
 %%%%
 
+% Settings.
+manual.language = 'British';
+manual.paper    = 'a4-3x3-duplex';
+manual.style    = 'scrartcl';
+
+
+
 % Software.
 software.compiler.self  = ' pandoc ';
 software.compiler.flags = ' -N ';
@@ -53,10 +60,33 @@ software.compiler.call  = [software.compiler.self software.compiler.flags];
 
 
 
+% Directories.
+directories.md      = './markdown/';
+directories.yaml    = './yaml/';
+
+
+
 % Files.
-files.self      = ' repository-manual.m ';
-files.source    = '';
-files.target    = '';
+files.code.begin    = [directories.md 'begin-code.md '];
+files.code.end      = [directories.md 'end-code.md '];
+
+files.license       = [files.code.begin ' ./LICENSE ' files.code.end];
+
+files.newpage       = [directories.md 'newpage.md '];
+
+files.self          = ' repository-manual.m ';
+
+files.source        = ' ./authors.yaml ./project.yaml ';
+files.source        = [files.source directories.yaml manual.language '.yaml '];
+files.source        = [files.source directories.yaml manual.paper '.yaml '];
+files.source        = [files.source directories.yaml manual.style '.yaml '];
+files.source        = [files.source files.newpage];
+files.source        = [files.source ' ./README.md '];
+files.source        = [files.source files.newpage];
+files.source        = [files.source files.license];
+files.source        = [files.source files.newpage];
+
+files.target        = ' repository.pdf ';
 
 
 
