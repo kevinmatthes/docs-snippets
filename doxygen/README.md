@@ -41,7 +41,7 @@
 
 # `./doxygen/`
 
-This directory contains a set Doxygen of configuration files.  These not only
+This directory contains a set of Doxygen configuration files.  These not only
 include the default one but also more specific settings for different coding
 languages.
 
