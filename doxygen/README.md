@@ -41,8 +41,9 @@
 
 # `./doxygen/`
 
-This directory contains a set of Doxygen configuration files.  These not only
-include the default one but also more specific settings for different coding
-languages.
+This directory contains a set of Doxygen configuration files.  These provide
+specific settings for different coding languages.
+
+The default configuration file can be found in `../blank/`.
 
 <!----------------------------------------------------------------------------->
