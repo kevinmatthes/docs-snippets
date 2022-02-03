@@ -39,10 +39,9 @@
 --
 ------------------------------------------------------------------------------->
 
-# `./doxygen/`
+# `./blank/`
 
-This directory contains a set of Doxygen configuration files.  These not only
-include the default one but also more specific settings for different coding
-languages.
+This directory contains a set of miscellaneous empty files for various purposes.
+These files can be considered templates and can be altered as required.
 
 <!----------------------------------------------------------------------------->
