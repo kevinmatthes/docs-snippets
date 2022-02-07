@@ -98,4 +98,26 @@ documentation systems.  They can be considered sample templates but also be
 adjusted to the needs of a certain project and / or repository which binds this
 one as a submodule.
 
+## Software Requirements
+
+This repository does not contain any source code, so there are no major software
+requirements.  However, it is possible to compile a printable description of the
+repository's READMEs as well as the LICENSE.  Therefore, one needs the following
+applications:
+
+| Requirement       | Type          | Role                              |
+|:------------------|:-------------:|:----------------------------------|
+| GNU Octave        | application   | execution of the provided scripts |
+| Pandoc            | application   | compilation of repository manual  |
+| `texlive-full`    | package       | compilation of repository manual  |
+
+The compilation of such an **optional** repository manual can be invoked by just
+calling:
+
+```
+octave repository-manual.m
+# or
+octave-cli repository-manual.m
+```
+
 <!----------------------------------------------------------------------------->
