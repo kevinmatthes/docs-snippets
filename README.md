@@ -102,8 +102,8 @@ one as a submodule.
 
 This repository does not contain any source code, so there are no major software
 requirements.  However, it is possible to compile a printable description of the
-repository's READMEs as well as the LICENSE.  Therefore, one needs the following
-applications:
+repository's READMEs as well as the LICENSE.  Therefore, one needs to ensure the
+installation of the applications and packages listed in the following.
 
 | Requirement       | Type          | Role                              |
 |:------------------|:-------------:|:----------------------------------|
@@ -112,12 +112,17 @@ applications:
 | `texlive-full`    | package       | compilation of repository manual  |
 
 The compilation of such an **optional** repository manual can be invoked by just
-calling:
+calling one of the following lines in a terminal.
 
 ```
 octave repository-manual.m
 # or
 octave-cli repository-manual.m
 ```
+
+Both will redirect to the same application, GNU Octave, which will then create
+the manual for this repository and attach the entire license to it.  The
+resulting file, `repository.pdf`, will be saved in the main directory of this
+repository.
 
 <!----------------------------------------------------------------------------->
