@@ -116,7 +116,6 @@ calling one of the following lines in a terminal.
 
 ```
 octave repository-manual.m
-# or
 octave-cli repository-manual.m
 ```
 
