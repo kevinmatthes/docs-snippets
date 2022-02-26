@@ -22,12 +22,22 @@
  * \copyright   (C) 2022 Kevin Matthes.
  *              This file is licensed GPL 2 as of June 1991.
  * \date        2022
- * \file        .c
+ * \file        .h
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  */
 
 /******************************************************************************/
+
+/*
+ * Security settings.
+ */
+
+#pragma once
+#ifndef ___H__
+#define ___H__
+
+
 
 /*
  * Includes.
@@ -37,10 +47,39 @@
 
 
 
-/**
- *
+/*
+ * Macros.
  */
 
 // .
+
+
+
+/*
+ * Function declarations.
+ */
+
+// .
+
+
+
+/*
+ * Constants.
+ */
+
+// .
+
+
+
+/*
+ * End of header.
+ */
+
+// Tidying up.
+#ifndef ___INTERNAL__
+#endif  // ! ___INTERNAL__
+
+// Leaving the header.
+#endif  // ! ___H__
 
 /******************************************************************************/
