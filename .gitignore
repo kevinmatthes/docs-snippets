@@ -43,7 +43,7 @@
 # Build artifacts.
 *.bak
 
-# Documentation.
+# Documentation artifacts.
 *.pdf
 
 # Doxygen directories.
