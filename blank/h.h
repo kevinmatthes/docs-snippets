@@ -56,6 +56,14 @@
 
 
 /*
+ * Type declarations.
+ */
+
+// .
+
+
+
+/*
  * Function declarations.
  */
 
