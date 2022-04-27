@@ -68,6 +68,14 @@
 
 
 /*
+ * Class declarations.
+ */
+
+// .
+
+
+
+/*
  * Function declarations.
  */
 
