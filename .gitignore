@@ -56,4 +56,22 @@
 html/
 latex/
 
+# LaTeX artifacts.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.run.xml
+*.synctex(busy)
+*.synctex.gz
+*.tdo
+*.toc
+
 ################################################################################
