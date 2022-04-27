@@ -39,11 +39,11 @@
 --
 ------------------------------------------------------------------------------->
 
-# libgpl2
+# README Template
 
 ## Summary
 
-A set of utilities concerning the GPL 2.0 license.
+This is a sample README template; just alter the names as required.
 
 ## License
 
