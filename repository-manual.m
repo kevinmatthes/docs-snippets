@@ -47,8 +47,8 @@
 %%%%
 
 % Directories.
-directories.md      = './docs-snippets/markdown/';
-directories.yaml    = './docs-snippets/yaml/';
+directories.md      = './markdown/';
+directories.yaml    = './yaml/';
 
 % Settings.
 settings.language   = [directories.yaml 'British'       '.yaml'];
