@@ -49,6 +49,20 @@ repository-artifact: https://github.com/kevinmatthes/docs-snippets
 title: docs-snippets
 url: https://github.com/kevinmatthes/docs-snippets
 
+# Preferred citation.
+preferred-citation:
+  abstract: A collection of common documentation configuration files.
+  authors:
+    - family-names: Matthes
+      given-names: Kevin
+  date-released: 2022-05-11
+  license: GPL-2.0
+  repository-artifact: https://github.com/kevinmatthes/docs-snippets
+  title: docs-snippets
+  type: software-code
+  url: https://github.com/kevinmatthes/docs-snippets
+  version: 0.0.0
+
 # References.
 references:
   - type: standard
