@@ -36,7 +36,7 @@ cff-version: 1.2.0
 message: Please cite this software using these meta data.
 
 # Version information.
-date-released: 2022-05-11
+date-released: 2022-05-12
 version: 0.0.0
 
 # Project information.
@@ -55,7 +55,7 @@ preferred-citation:
   authors:
     - family-names: Matthes
       given-names: Kevin
-  date-released: 2022-05-11
+  date-released: 2022-05-12
   license: GPL-2.0
   repository-artifact: https://github.com/kevinmatthes/docs-snippets
   title: docs-snippets
